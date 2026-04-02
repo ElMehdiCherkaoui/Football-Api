@@ -1,0 +1,155 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "league": "19",
+    "season": "2024"
+  },
+  "errors": [],
+  "results": 2,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "fixture": {
+        "id": 1419201,
+        "referee": "Lotfi Bekouassa",
+        "timezone": "UTC",
+        "date": "2025-08-02T17:00:00+00:00",
+        "timestamp": 1754154000,
+        "periods": {
+          "first": 1754154000,
+          "second": 1754157600
+        },
+        "venue": {
+          "id": 1550,
+          "name": "Benjamin Mkapa National Stadium",
+          "city": "Dar-es-Salaam"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 7
+        }
+      },
+      "league": {
+        "id": 19,
+        "name": "African Nations Championship",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/19.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Group Stage - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 1489,
+          "name": "Tanzania",
+          "logo": "https://media.api-sports.io/football/teams/1489.png",
+          "winner": true
+        },
+        "away": {
+          "id": 1502,
+          "name": "Burkina Faso",
+          "logo": "https://media.api-sports.io/football/teams/1502.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1419202,
+        "referee": "Jelly Alfred Chavani",
+        "timezone": "UTC",
+        "date": "2025-08-03T12:00:00+00:00",
+        "timestamp": 1754222400,
+        "periods": {
+          "first": 1754222400,
+          "second": 1754226000
+        },
+        "venue": {
+          "id": 996,
+          "name": "Moi International Sports Centre",
+          "city": "Nairobi"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90,
+          "extra": 8
+        }
+      },
+      "league": {
+        "id": 19,
+        "name": "African Nations Championship",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/19.png",
+        "flag": null,
+        "season": 2024,
+        "round": "Group Stage - 1",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 1511,
+          "name": "Kenya",
+          "logo": "https://media.api-sports.io/football/teams/1511.png",
+          "winner": true
+        },
+        "away": {
+          "id": 1508,
+          "name": "Congo DR",
+          "logo": "https://media.api-sports.io/football/teams/1508.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 0
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    }
+  ]
+}
